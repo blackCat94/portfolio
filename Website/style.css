@@ -1,0 +1,117 @@
+
+
+* {
+box-sizing: border-box;
+
+}
+
+body{
+     margin: 0;
+	 text-align: center;
+	 font-family:Helvetica, sans-serif;
+	     background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ccb3ff, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ccb3ff, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ccb3ff, #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ccb3ff, #ffffff); /* Standard syntax */
+
+
+}
+/* header
+*/
+
+header {
+
+	margin: 1em;
+
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+nav li {
+	display: inline-block;
+	margin: 1em;
+}
+
+nav a{
+	font-weight: 900;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: .5em;
+
+}
+
+/* about list of skills */
+.about-image {
+float: right;
+padding-left: 1.5em;
+}
+
+.about2-sect {
+text-align: left;
+
+}
+
+/* examples */
+
+.eg1 {
+
+text-align: left;
+
+}
+
+.eg2 {
+text-align: left;
+
+}
+
+.eg3 {
+
+text-align: left;
+
+}
+
+.no1{
+display: inline-block;
+align: centre;
+padding: 10px;
+}
+
+.no2 {
+display:inline-block;
+align: centre;
+padding: 10px;
+width: 100%;
+
+}
+
+.button {
+	background-color: white;
+	color: black;
+	border: 2px solid #555555;
+	text-decoration: none;
+	padding: 15px 32px;
+	text-align: center;
+	font-weight:800;
+
+
+}
+
+
+.homeImg {
+
+width: 100%;
+/*max-width: 850px;*/
+height: auto;
+
+}
+footer{
+padding: 10px;
+margin-top: 30px;
+border-top: 2px solid #ccb3ff;
+}
